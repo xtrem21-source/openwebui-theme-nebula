@@ -1,0 +1,16 @@
+/* ==========================================================================
+   Nebula — Light mode override
+   ==========================================================================
+   Load AFTER theme.css to override dark-first defaults.
+   Or use [data-theme="light"] on <html> (handled in theme.css).
+   ========================================================================== */
+
+/* This file exists for explicit light-mode loading if needed.
+   The main theme.css already handles:
+   - @media (prefers-color-scheme: light)
+   - [data-theme="light"] selector
+   
+   Import order in OpenWebUI Custom CSS:
+   @import url('/static/themes/nebula/theme.css');
+   @import url('/static/themes/nebula/theme-light.css');  // optional, for forced light
+*/

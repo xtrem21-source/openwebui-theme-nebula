@@ -1,0 +1,52 @@
+{
+  "name": "Nebula",
+  "description": "Modern dark-first theme for OpenWebUI with glassmorphism, violet/teal palette, and full customization via CSS variables.",
+  "version": "1.0.0",
+  "author": "xtrem21-source",
+  "license": "MIT",
+  "homepage": "https://github.com/xtrem21-source/openwebui-theme-nebula",
+  "repository": "https://github.com/xtrem21-source/openwebui-theme-nebula",
+  "theme": {
+    "type": "css",
+    "entry": "theme.css",
+    "lightEntry": "theme-light.css",
+    "variables": {
+      "color-bg": "Main background",
+      "color-bg-elevated": "Elevated surfaces (cards, modals)",
+      "color-accent": "Primary accent (violet)",
+      "color-teal": "Secondary accent (teal)",
+      "font-sans": "Sans-serif font stack",
+      "font-mono": "Monospace font stack",
+      "radius-md": "Default border radius",
+      "glass-bg": "Glassmorphism background",
+      "glass-blur": "Glassmorphism blur filter"
+    }
+  },
+  "compatibility": {
+    "openwebui": ">=0.3.0",
+    "browsers": "Chrome 88+, Firefox 78+, Safari 14+, Edge 88+"
+  },
+  "features": [
+    "dark-mode",
+    "light-mode",
+    "auto-color-scheme",
+    "manual-toggle",
+    "glassmorphism",
+    "variable-fonts",
+    "high-contrast",
+    "reduced-motion",
+    "rtl",
+    "responsive",
+    "print-styles"
+  ],
+  "keywords": [
+    "openwebui",
+    "theme",
+    "dark-mode",
+    "glassmorphism",
+    "css-variables",
+    "nebula",
+    "violet",
+    "teal"
+  ]
+}
